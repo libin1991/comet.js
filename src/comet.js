@@ -82,7 +82,7 @@ var comet = {
      */
     init: function (baseurl, sleepTime, count) {
         "use strict";
-        sleepTime = sleepTime || 1;
+        sleepTime = sleepTime || 2000;
         count = count || 1;
         if (baseurl != undefined) {
             comet._baseurl = baseurl;
